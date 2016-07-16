@@ -1,0 +1,115 @@
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Josefin+Slab:400,300|Raleway);
+
+body {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background: #FFFFFF;
+}
+h1 {
+  font-weight: 700;
+  font-family: "PlayFair Display";
+  text-align: center;
+  font-size: 36px;
+  margin: 5px;
+}
+h2 {
+  font-weight: 400;
+  font-family: "PlayFair Display";
+  text-align: center;
+  font-size: 24px;
+  margin: 5px;
+}
+h3 {
+    font-weight: 400;
+    font-family: "Josefin Slab";
+    font-size: 18px;
+    text-align: justify;
+    margin: 5px;
+
+}
+h4 {
+  font-weight: 300;
+  font-family: 'Josefin Slab';
+  font-size: 22px;
+  text-align: center;
+  margin: 5px;
+}
+.main-section {
+  background: #FFFFFF;
+  color: #002C54;
+  width: 100vw;
+  min-height: 65vh;
+  padding: 20px;
+  display: flex;
+  display: row;
+  position: relative;
+
+}
+
+.beer-icons {
+  display: flex;
+  flex-direction: column;
+  background: #FFFFFF;
+  position: fixed;
+}
+
+.content {
+  padding: 2% 10% 10% 15%;
+  min-width: 90vw;
+}
+
+
+button {
+  width: 50%;
+  height: 65px;
+  margin-left: 24%;
+  margin-top: 10vh;
+  background: #EFB509;
+  color: #002C54;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 275%;
+  cursor: pointer;
+  border-radius: 3px;
+  border: none;
+  position: relative;
+  bottom: 10;
+  -webkit-transition-duration: 0.8s; /* Safari */
+  transition-duration: .8s;
+
+}
+
+button:focus {outline:0;}
+
+svg {
+  height: 100px;
+  width: 75px;
+}
+
+
+@media screen and (max-device-width: 414px) and (max-device-height: 776px) {
+  .content {
+    padding: 2% 10% 10% 15%;
+    min-width: 90vw;
+  }
+  svg {
+    height: 85px;
+    width: 45px;
+  }
+
+  button {
+    font-size: 26px;
+  }
+ }
+
+
+ @media screen and (min-device-width: 700px) and (min-device-height: 800px) {
+   button:hover {
+     background: #FFF;
+     border-bottom: solid 5px ;
+   }
+
+
+ }
